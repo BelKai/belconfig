@@ -52,9 +52,8 @@ sudo apt install -y fonts-font-awesome fonts-powerline fonts-ubuntu fonts-libera
 sudo apt install -y lightdm-gtk-greeter-settings
 sudo systemctl enable lightdm
 
-# Install firewall and enable it
-sudo apt install -y ufw
-sudo ufw enable
+# Install rofi and geany
+sudo apt install -y rofi geany
 
 # Clean up
 rm google-chrome.deb
@@ -64,6 +63,3 @@ sudo apt autoremove -y
 
 # Reboot the system (optional)
 sudo reboot
-
-
-
